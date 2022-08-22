@@ -1,1 +1,1 @@
-# In this project, i used Postman for API management
+# In this project, I used Postman for API management
