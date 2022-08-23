@@ -7,11 +7,11 @@ This app uses Django-rest Token authentication to authenticate its users. Only a
 
 
 # ENDPOINTS
-Register
+# Register
  * Method : 'POST'
  * 'base/register/'
  * Required: {'email', 'password'}
-Login
+#Login
  * Method : 'POST'
  * 'base/login/'
  * required: {'username', 'password'} -email as username
