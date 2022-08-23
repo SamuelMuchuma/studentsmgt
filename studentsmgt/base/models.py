@@ -23,7 +23,7 @@ class Students(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="students")
     first_name = models.CharField(max_length=200)
     second_name = models.CharField(max_length=200)
-    student_ID = models.CharField(max_length=200)
+    student_ID = models.CharField(max_length=200, unique=True)
     activity = models.ForeignKey(School_Activities, related_name="activities", blank=True, on_delete=models.PROTECT)
 
     # return student first and second name
