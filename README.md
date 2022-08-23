@@ -7,53 +7,40 @@ This app uses Django-rest Token authentication to authenticate its users. Only a
 
 
 # ENDPOINTS
-
-# Register
-Method : 'POST'
-'base/register/'
-Required: {'email', 'password'}
-
-# Login
-Method : 'POST'
-'base/login/'
-required: {'username', 'password'} -email as username
-
-#Add Activities
-Method : 'POST'
-'base/activities/'
-required {'name', 'category'}
-
-#List Activities
-Method :'GET'
-'base/activities/'
-
-#Add New Student
-Method : 'POST'
-'base/students/'
-required: {'second_name', 'second_name', 'student_ID(unique)', 'activity'} -Activity has to exist in the activity model
-
-
-#List Studenst
-Method :'GET'
-'/base/students/'
-
-#Filter Student By Student ID
-Method : 'GET'
-'/base/students/?search=search_params'
-required: student_ID in place of search_params 
-
-#Delete Student
-Method : DELETE
-'/base/students/<str:id/'
-required: id
-
-#Update Student
-Method : 'PATCH'
-'base/students/<str:id>/'
-required : id
-
-
-
+Register
+ * Method : 'POST'
+ * 'base/register/'
+ * Required: {'email', 'password'}
+Login
+ * Method : 'POST'
+ * 'base/login/'
+ * required: {'username', 'password'} -email as username
+Add Activities
+ * Method : 'POST'
+ * 'base/activities/'
+ * required {'name', 'category'}
+List Activities
+ * Method :'GET'
+ * 'base/activities/'
+Add New Student
+ * Method : 'POST'
+ * 'base/students/'
+ * required: {'second_name', 'second_name', 'student_ID(unique)', 'activity'} -Activity has to exist in the activity model
+List Studenst
+ * Method :'GET'
+ * '/base/students/'
+Filter Student By Student ID
+ * Method : 'GET'
+ * '/base/students/?search=search_params'
+ * required: student_ID in place of search_params 
+Delete Student
+ * Method : DELETE
+ * '/base/students/<str:id/'
+ * required: id
+Update Student
+ * Method : 'PATCH'
+ * 'base/students/<str:id>/'
+ * required : id
 
 
 # REQUIREMENTS
