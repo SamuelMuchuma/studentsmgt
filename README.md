@@ -1,5 +1,6 @@
 #Introduction
-This is a student’s management app. Teachers can add new students, delete and update existing students’ data. The app lists students alongside activities they can participate in. Teachers can only list their students. School activities are global. Any teacher can list, create, delete and update school activities
+#This is a student’s management app. Teachers can add new students, delete and update existing students’ data. The app lists students alongside activities they can participate in. Teachers can only list their students. School activities are global. Any teacher can list, create, delete and update school activities
+
 #Authentication
 This app uses Django-rest Token authentication to authenticate its users. Only authenticated users-teachers are allowed to use the app.
  
