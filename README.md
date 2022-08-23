@@ -11,11 +11,11 @@ The apps requirements are listed in the requirements.txt file. Alongside the lis
 
 
 # GETTING STARTED
- *Install the requirements listed in the requirements.txt
+ * Install the requirements listed in the requirements.txt
 	Pip install -r requirements
-*Once all requirements have been installed, run server
+* Once all requirements have been installed, run server
 	Python manage.py runserver
-Install Postman
+* Install Postman
 Using postman, import 'Students Management.postman_collection' to access the apps endpoints
 
 
